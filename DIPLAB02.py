@@ -28,7 +28,7 @@ html_temp = """
 st.markdown(html_temp,unsafe_allow_html=True)
   
 st.title("""
-        Collor Palette
+        IMAGE OPERATION
          """
          )
 file= st.file_uploader("Please upload image", type=("jpg", "png"))
